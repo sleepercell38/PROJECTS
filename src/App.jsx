@@ -8,8 +8,9 @@ import { Authcontext } from './contexts/Authprovider'
 
 const App = () => {
   
+
   
-  
+
     const authdata=useContext(Authcontext)
     console.log(authdata);
       
